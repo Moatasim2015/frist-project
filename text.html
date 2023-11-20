@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>dentist</title>
+  </head>
+  <body>
+    <!----------- header section starts  ------------>
+
+    <header>
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <a href="#" class="logo"><span>watch</span> store</a>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" class="active">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#Featured">Featured</a></li>
+          <li><a href="#review">review</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!------------ header section ends ------------>
+
+    <!----------- home section starts  ------------->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h1>All New For a Better You</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          modi sed delectus dolorum doloremque id vero deleniti voluptates ad
+          magni?
+        </p>
+        <a href="#"
+          ><button class="btn">
+            order now
+            <i class="fa-solid fa-circle-arrow-down"></i></button
+        ></a>
+      </div>
+
+      <div class="image">
+        <img src="images/watch.png" alt="" />
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about the product</span></h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/abut.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Best and Fashionable Smart Watch For Easy Life.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In quod
+            fugit eum adipisci dolores ipsum sunt repudiandae numquam sapiente
+            iure.
+          </p>
+          <p>
+            <i class="fas fa-check-circle"></i> Attractive Interface with Many
+            Options
+          </p>
+          <p>
+            <i class="fas fa-check-circle"></i> Live Chat and Instant
+            Notification
+          </p>
+          <p>
+            <i class="fas fa-check-circle"></i> Install App with Unlimited
+            Features
+          </p>
+          <a href="https://tech-code24.net/"
+            ><button class="btn">
+              learn more
+              <i class="fa-solid fa-circle-arrow-down"></i></button
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- featured section starts  -->
+
+    <section class="feature" id="Featured">
+      <h1 class="heading"><span> featured </span></h1>
+
+      <div class="row">
+        <div class="image-container">
+          <div class="big-image">
+            <img class="shose" src="images/watch1.jpg" alt="" />
+          </div>
+
+          <div class="small-image">
+            <img
+              class="image-active"
+              src="images/watch1.jpg"
+              onclick="shoses(this.src)"
+            />
+            <img src="images/watch2.jpg" onclick="shoses(this.src)" />
+            <img src="images/watch3.jpg" onclick="shoses(this.src)" />
+            <img src="images/watch4.jpg" onclick="shoses(this.src)" />
+          </div>
+        </div>
+
+        <div class="content">
+          <h3>smart watches</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>(500+) reviews</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            at!
+          </p>
+          <strong class="price">₹1000 <span>₹1500</span> </strong>
+          <a href="#"
+            ><button class="btn">
+              buy now
+              <i class="fa-solid fa-circle-arrow-down"></i></button
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- featured section ends -->
+
+    <!-- product section starts  -->
+
+    <section class="product" id="product">
+      <h1 class="heading">
+        <span> Our Awesome Products. Choose Best One</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/w1.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>smart Watch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, velit adipisci. Tempore, dolor dicta. Aspernatur
+              quisquam voluptas natus ex laudantium?
+            </p>
+            <div class="price">$50/-</div>
+            <a href="https://tech-code24.net/"
+              ><button class="btn">add to cart</button></a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/feature_prod_05.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>smart Watch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, velit adipisci. Tempore, dolor dicta. Aspernatur
+              quisquam voluptas natus ex laudantium?
+            </p>
+            <div class="price">$40/-</div>
+            <a href="https://tech-code24.net/"
+              ><button class="btn">add to cart</button></a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/w3.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>smart Watch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, velit adipisci. Tempore, dolor dicta. Aspernatur
+              quisquam voluptas natus ex laudantium?
+            </p>
+            <div class="price">$60/-</div>
+            <a href="https://tech-code24.net/"
+              ><button class="btn">add to cart</button></a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/feature_prod_04.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>smart Watch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, velit adipisci. Tempore, dolor dicta. Aspernatur
+              quisquam voluptas natus ex laudantium?
+            </p>
+            <div class="price">$55/-</div>
+            <a href="https://tech-code24.nethttps://tech-code24.net/"
+              ><button class="btn">add to cart</button></a
+            >
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/feature_prod_06.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>smart Watch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, velit adipisci. Tempore, dolor dicta. Aspernatur
+              quisquam voluptas natus ex laudantium?
+            </p>
+            <div class="price">$55/-</div>
+            <a href="https://tech-code24.net/"
+              ><button class="btn">add to cart</button></a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/r4.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>smart Watch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, velit adipisci. Tempore, dolor dicta. Aspernatur
+              quisquam voluptas natus ex laudantium?
+            </p>
+            <div class="price">$55/-</div>
+            <a href="https://tech-code24.net/"
+              ><button class="btn">add to cart</button></a
+            >
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/w2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>smart Watch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, velit adipisci. Tempore, dolor dicta. Aspernatur
+              quisquam voluptas natus ex laudantium?
+            </p>
+            <div class="price">$55/-</div>
+            <a href="https://tech-code24.net/"
+              ><button class="btn">add to cart</button></a
+            >
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/w3.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>smart Watch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, velit adipisci. Tempore, dolor dicta. Aspernatur
+              quisquam voluptas natus ex laudantium?
+            </p>
+            <div class="price">$55/-</div>
+            <a href="https://tech-code24.net/"
+              ><button class="btn">add to cart</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section ends -->
+
+    <section class="cards-section">
+      <div class="cards">
+        <div class="card">
+          <div class="card__top">
+            <img src="img/w1.png" alt="w1" />
+          </div>
+          <div class="card__bottom">
+            <div class="bottom-colors">
+              <svg height="13" width="13">
+                <circle cx="6.5" cy="6.5" r="6.5" fill="#1e2a44" />
+              </svg>
+              <svg height="13" width="13">
+                <circle cx="6.5" cy="6.5" r="6.5" fill="#1e2a44" />
+              </svg>
+              <svg height="13" width="13">
+                <circle cx="6.5" cy="6.5" r="6.5" fill="#1e2a44" />
+              </svg>
+            </div>
+
+            <div class="bottom-name">
+              <p>Apple Watch Series 7</p>
+            </div>
+
+            <div class="bottom-price">
+              <span>$399</span>
+              <span>Add to card</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="img/w2.png" alt="w1" />
+          </div>
+          <div class="card__bottom">
+            <div class="bottom-colors">
+              <svg height="13" width="13">
+                <circle cx="6.5" cy="6.5" r="6.5" fill="#1e2a44" />
+              </svg>
+              <svg height="13" width="13">
+                <circle cx="6.5" cy="6.5" r="6.5" fill="#1e2a44" />
+              </svg>
+              <svg height="13" width="13">
+                <circle cx="6.5" cy="6.5" r="6.5" fill="#1e2a44" />
+              </svg>
+            </div>
+
+            <div class="bottom-name">
+              <p>Apple Watch Series 7</p>
+            </div>
+
+            <div class="bottom-price">
+              <span>$399</span>
+              <span>Add to card</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="img/w3.png" alt="w1" />
+          </div>
+          <div class="card__bottom">
+            <div class="bottom-colors">
+              <svg height="13" width="13">
+                <circle cx="6.5" cy="6.5" r="6.5" fill="#1e2a44" />
+              </svg>
+              <svg height="13" width="13">
+                <circle cx="6.5" cy="6.5" r="6.5" fill="#1e2a44" />
+              </svg>
+              <svg height="13" width="13">
+                <circle cx="6.5" cy="6.5" r="6.5" fill="#1e2a44" />
+              </svg>
+            </div>
+
+            <div class="bottom-name">
+              <p>Apple Watch Series 7</p>
+            </div>
+
+            <div class="bottom-price">
+              <span>$399</span>
+              <span>Add to card</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------REVIEW-------------->
+
+    <section id="review" class="review">
+      <h1 class="heading"><span>Review</span></h1>
+
+      <div class="review-container">
+        <div class="boxing">
+          <div class="user-info">
+            <div class="images">
+              <img src="images/man_dp3.jpg" alt="" />
+            </div>
+
+            <div class="name">
+              <h3>Kaveesha Vidurangi</h3>
+              <div class="starts">
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+              </div>
+            </div>
+          </div>
+          <p>
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Corrupti
+            Asperiores Laboriosam Praesentium Enim Maiores? Ad Repellat
+            Voluptates Alias Facere Repudiandae Dolor Accusamus Enim Ut Odit,
+            Aliquam Nesciunt Eaque Nulla Dignissimos.
+          </p>
+          <a href="#" class="fa fa-quote-right"></a>
+        </div>
+
+        <div class="boxing">
+          <div class="user-info">
+            <div class="images">
+              <img src="images/gir_dp3.jpg" alt="" />
+            </div>
+
+            <div class="name">
+              <h3>Sayuru Tharanga</h3>
+              <div class="starts">
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+              </div>
+            </div>
+          </div>
+          <p>
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Corrupti
+            Asperiores Laboriosam Praesentium Enim Maiores? Ad Repellat
+            Voluptates Alias Facere Repudiandae Dolor Accusamus Enim Ut Odit,
+            Aliquam Nesciunt Eaque Nulla Dignissimos.
+          </p>
+          <a href="#" class="fa fa-quote-right"></a>
+        </div>
+
+        <div class="boxing">
+          <div class="user-info">
+            <div class="images">
+              <img src="images/man_dp2.jpg" alt="" />
+            </div>
+
+            <div class="name">
+              <h3>Ranidi Lochana</h3>
+              <div class="starts">
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+                <a href="#" class="fa fa-star"></a>
+              </div>
+            </div>
+          </div>
+          <p>
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Corrupti
+            Asperiores Laboriosam Praesentium Enim Maiores? Ad Repellat
+            Voluptates Alias Facere Repudiandae Dolor Accusamus Enim Ut Odit,
+            Aliquam Nesciunt Eaque Nulla Dignissimos.
+          </p>
+          <a href="#" class="fa fa-quote-right"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <form action="">
+        <input class="box" type="text" placeholder="name" />
+        <input class="box" type="email" placeholder="your email" />
+        <input class="box" type="number" placeholder="your number" />
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="message"
+        ></textarea>
+
+        <a href="#"><button class="btn">send message</button></a>
+      </form>
+
+      <div class="content">
+        <h3>Need Help? Don't Forget to Contact With Us</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+          ut earum. Doloremque minus, error voluptas totam blanditiis dolores
+          iste aliquam!
+        </p>
+        <div class="icons">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>mumbai, india - 400104</p>
+        </div>
+        <div class="icons">
+          <i class="fas fa-globe"></i>
+          <p>www.yourwebsite.com</p>
+        </div>
+        <div class="icons">
+          <i class="fas fa-phone"></i>
+          <p>123-456-7890</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <div class="footer">
+      <div class="share">
+        <h3>follow us</h3>
+        <a href="https://tech-code24.net/" class="fab fa-facebook-f"></a>
+        <a href="https://tech-code24.net/" class="fab fa-twitter"></a>
+        <a href="https://tech-code24.net/" class="fab fa-instagram"></a>
+        <a href="https://tech-code24.net/" class="fab fa-pinterest"></a>
+      </div>
+
+      <h1 class="credit">
+        created by <a href="#">tech.code</a> | mahmoud moatasem
+      </h1>
+    </div>
+
+    <!-- footer section ends -->
+    <!-- <span class="up">up</span> -->
+
+    
+    <div class="up show">
+      <span></span>
+    </div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
